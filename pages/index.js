@@ -17,7 +17,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
+import { RiNotionFill } from 'react-icons/ri'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -57,18 +58,18 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="100px"
-            h="100px"
+            w="120px"
+            h="150px"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/hj.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="100"
-              height="100"
+              width="120"
+              height="150"
             />
           </Box>
         </Box>
@@ -76,20 +77,35 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Contact
         </Heading>
         <Paragraph>
-          HJ is a junior iOS developer based in Daegu with a
-          passion for building digital services/stuff he wants.
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+            <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGoogle />}
+            >
+                rlagudwns886@gmail.com
+            </Button>
+          
+        </Paragraph>
+
+      </Section>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Introduce Myself
+        </Heading>
+        <Paragraph>
+          I&apos;m a junior iOS developer based in Daegu/Seoul 
+          with a passion for building digital services/stuff he wants.
+          I&apos;m continuously growing and strive to foster a development 
+          culture that grows together through networking, and I work hard to share 
+          valuable knowledge. Moreover, before becoming a skilled developer, 
+          I&apos;m constantly striving to grow as a good developer, 
+          always pondering what people need, and maintaining an attitude of relentless 
+          challenge.
+          
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -108,14 +124,37 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>1996</BioYear>
-          Born in Daegu(대구), S.Korea.
-        </BioSection>
+
         <BioSection>
           <BioYear>2023</BioYear>
-          Completed the Bachelor&apos;s degree in the Graduate School of
-          Computer Science at YU
+          Completed a Bachelor&apos;s degree in Computer Science from the Graduate School at YU.
+        </BioSection>
+        
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          My Best Friends ♥
+        </Heading>
+
+        <BioSection>
+          <BioYear>Swift</BioYear>
+          
+        </BioSection>
+
+        <BioSection>
+          <BioYear>Python</BioYear>
+          
+        </BioSection>
+
+        <BioSection>
+          <BioYear>C++</BioYear>
+          
+        </BioSection>
+
+        <BioSection>
+          <BioYear>Swift</BioYear>
+          
         </BioSection>
         
       </Section>
@@ -125,15 +164,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Art, Music, 3D Character
         </Paragraph>
       </Section>
 
@@ -165,6 +196,19 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+
+          <ListItem>
+            <Link href="https://emptyhead.oopy.io/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<RiNotionFill />}
+              >
+                ♥ my blog
+              </Button>
+            </Link>
+          </ListItem>
+          
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
