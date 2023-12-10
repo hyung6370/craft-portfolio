@@ -19,8 +19,8 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
 import { RiNotionFill } from 'react-icons/ri'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbJeju from '../public/images/travel/jeju/jeju2.png'
+import thumbSapporo from '../public/images/travel/sapporo/sapporo8.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -58,8 +58,8 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="120px"
-            h="150px"
+            w="100px"
+            h="110px"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
@@ -68,8 +68,8 @@ const Home = () => (
               src="/images/hj.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="120"
-              height="150"
+              width="100"
+              height="110"
             />
           </Box>
         </Box>
@@ -92,6 +92,8 @@ const Home = () => (
 
       </Section>
 
+        <br />
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Introduce Myself
@@ -107,6 +109,8 @@ const Home = () => (
           challenge.
           
         </Paragraph>
+        <br />
+        <Paragraph>As an iOS developer, I&apos;m continuously studying and striving to enhance performance in maintenance and scalability using high-level programming languages like Swift.</Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -120,6 +124,7 @@ const Home = () => (
         </Box>
       </Section>
 
+      <br />
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
@@ -131,42 +136,40 @@ const Home = () => (
         </BioSection>
         
       </Section>
-
+        <br />
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           My Best Friends ♥
         </Heading>
 
         <BioSection>
-          <BioYear>Swift</BioYear>
-          
+            <BioYear>Swift</BioYear>
+            I enjoy implementing code-based UI using UIKit, and I&apos;m currently studying diligently to implement
+            user-friendly UX with MVVM, RxSwift and Clean Architecture, TDD.
         </BioSection>
 
         <BioSection>
-          <BioYear>Python</BioYear>
-          
+          <BioYear>Python / C++</BioYear>
+          I&apos;m continuously studying to implement efficient algorithms.
         </BioSection>
 
         <BioSection>
-          <BioYear>C++</BioYear>
-          
-        </BioSection>
-
-        <BioSection>
-          <BioYear>Swift</BioYear>
-          
+          <BioYear>JavaScript</BioYear>
+          I can create simple websites using nextJS and reactJS.
         </BioSection>
         
       </Section>
-
+        <br />
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, 3D Character
+          Art, Music, 3D Character, Movie
         </Paragraph>
       </Section>
+
+        <br />
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -210,31 +213,28 @@ const Home = () => (
           </ListItem>
           
         </List>
-
+        <br />
+        <Heading as="h3" variant="section-title">
+          My Travel
+        </Heading>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;150k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
+        <GridItem
+            href="https://emptyhead.oopy.io/6ee9459f-85be-442c-9cc1-166602fb9f15"
+            title="SAPPORO"
+            thumbnail={thumbSapporo}
+        >
+            My first destination on a solo trip
+        </GridItem>
+        <GridItem
+            href="https://emptyhead.oopy.io/9036f34c-6cdd-4f8b-a305-a091014b1f13"
+            title="JEJU"
+            thumbnail={thumbJeju}
+        >
+            JEJU, where everything was beautiful
+        </GridItem>
         </SimpleGrid>
 
-        <Heading as="h3" variant="section-title">
-          Newsletter
-        </Heading>
-        <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
-        </p>
+        <br /><br />
 
         <Box align="center" my={4}>
           <Button
