@@ -5,9 +5,12 @@
 
     "headers": [
         {
-          "source": "/dog.glb",
+          "source": "/(.*)",
           "headers": [
-            { "key": "Access-Control-Allow-Origin", "value": "https://craft-portfolio-24s7-14oeep2uu-hyungjun-kims-projects.vercel.app" }
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "https://craft-portfolio-ro9hob64b-hyungjun-kims-projects.vercel.app"
+            }
           ]
         }
       ]
