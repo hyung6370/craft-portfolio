@@ -2,17 +2,15 @@
     "github": {
         "silent": true
     },
-
     "headers": [
         {
-          "source": "/(.*)",
-          "headers": [
-            {
-              "key": "Access-Control-Allow-Origin",
-              "value": "https://craft-portfolio-r51beyfpa-hyungjun-kims-projects.vercel.app"
-            }
-          ]
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "https://craft-portfolio-r51beyfpa-hyungjun-kims-projects.vercel.app"
+                }
+            ]
         }
-      ]
-
+    ]
 }
