@@ -137,7 +137,7 @@ const Home = () => (
         <BioSection>
             <BioYear>Swift</BioYear>
             UIKit을 사용한 코드 베이스 UI 구현을 즐기며, 현재는 MVVM, RxSwift, Clean Architecture, TDD를 활용하여
-            사용자 친화적인 UI/UX를 구현하기 위해 현재 열심히 공부하고 있습니다.
+            사용자 친화적인 UI/UX를 구현하기 위해 꾸준히 공부하고 있습니다.
         </BioSection>
 
         <BioSection>
