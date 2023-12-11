@@ -93,16 +93,25 @@ const Home = () => (
 
       </Section>
 
+        <br />
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Introduce Myself
         </Heading>
         <Paragraph>
-        안녕하세요!😎 현재 대구와 서울에 거주하고 활동하고 있는 주니어 iOS 앱개발자로, 제가 원하는 Services/Product/Project를 만드는 데 열정을 가지고 있습니다. 지속적으로 꾸준히 성장하고 있으며, 네트워킹을 통해 함께 성장하는 개발 문화를 지향하며, 가치 있는 지식을 공유하려고 노력합니다. 더욱이 언제나 사람들이 필요로 하는 것에 대해서 늘 고민하며, 끊임없는 도전의 자세를 유지합니다. 또한 숙련된 개발자가 되기 이전에 좋은 개발자로 성장하기 위해 끊임없이 노력하고 있습니다.
+          I&apos;m a junior iOS developer based in Daegu/Seoul 
+          with a passion for building digital services/stuff he wants.
+          I&apos;m continuously growing and strive to foster a development 
+          culture that grows together through networking, and I work hard to share 
+          valuable knowledge. Moreover, before becoming a skilled developer, 
+          I&apos;m constantly striving to grow as a good developer, 
+          always pondering what people need, and maintaining an attitude of relentless 
+          challenge.
           
         </Paragraph>
         <br />
-        <Paragraph>iOS 개발자로서, Swift와 같은 고급 프로그래밍 언어를 사용하여 유지보수 및 확장성에서 성능을 향상시키기 위해 지속적으로 공부하고 노력하고 있습니다.</Paragraph>
+        <Paragraph>As an iOS developer, I&apos;m continuously studying and striving to enhance performance in maintenance and scalability using high-level programming languages like Swift.</Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -111,7 +120,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My Portfolio
+            My portfolio
           </Button>
         </Box>
       </Section>
@@ -136,18 +145,18 @@ const Home = () => (
 
         <BioSection>
             <BioYear>Swift</BioYear>
-            UIKit을 사용한 코드 베이스 UI 구현을 즐기며, 현재는 MVVM, RxSwift, Clean Architecture, TDD를 활용하여
-            사용자 친화적인 UI/UX를 구현하기 위해 현재 열심히 공부하고 있습니다.
+            I enjoy implementing code-based UI using UIKit, and I&apos;m currently studying diligently to implement
+            user-friendly UX with MVVM, RxSwift and Clean Architecture, TDD.
         </BioSection>
 
         <BioSection>
           <BioYear>Python / C++</BioYear>
-          효율적인 알고리즘을 구현하기 위해 꾸준히 공부하고 있습니다.
+          I&apos;m continuously studying to implement efficient algorithms.
         </BioSection>
 
         <BioSection>
           <BioYear>JavaScript</BioYear>
-          NextJS, ReactJS를 활용해 간단한 웹사이트를 제작할 수 있습니다.
+          I can create simple websites using nextJS and reactJS.
         </BioSection>
         
       </Section>

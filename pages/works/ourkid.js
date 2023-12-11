@@ -14,10 +14,11 @@ import {
     <Layout title="Our Kid">
       <Container>
         <Title>
-          우리아이의 유치원 <Badge>2023-</Badge>
+          우리아이의 유치원 <Badge>2023</Badge>
         </Title>
         <P>
-        A service that allows you to quickly check the hygiene environment of all kindergartens in Seoul through colors.
+        ✨ 서울시 내 모든 유치원 위생 환경을 색깔로 한 눈에 확인할 수 있는 앱 서비스 입니다.
+        <br />
         </P>
         <br />
         
@@ -36,7 +37,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>iOS/Web</span>
+            <span>iOS / Web</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
@@ -45,7 +46,7 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/969024c0-06d2-4d07-9911-24e2c6601c91">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -55,7 +56,7 @@ import {
             </Link>
           </ListItem>
         </List>
-  
+        <br />
         <WorkImage src="/images/works/ourkid_1.png" alt="ourkid" />
         <WorkImage src="/images/works/ourkid_2.png" alt="ourkid" />
         

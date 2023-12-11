@@ -83,6 +83,9 @@ const Navbar = props => {
           <LinkItem href="https://emptyhead.oopy.io/">
             Blog
           </LinkItem>
+          <LinkItem href="/eng" path={path}>
+            Eng
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/hyung6370/craft-portfolio"

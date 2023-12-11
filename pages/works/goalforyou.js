@@ -17,7 +17,8 @@ import {
         Goal for you <Badge>2023-</Badge>
         </Title>
         <P>
-        Goal For You, a service that helps you achieve your desired goals.
+        ✨ 이루고 싶은 목표를 달성하도록 도와주는 서비스 입니다.
+        <br />
         </P>
         <br />
         
@@ -45,11 +46,11 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/d30d10fa-90ff-4088-a8f2-5691575f65a1">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
-  
+        <br />
         <WorkImage src="/images/works/goalforyou_1.png" alt="goalforyou" />
         <WorkImage src="/images/works/goalforyou_2.png" alt="goalforyou" />
         

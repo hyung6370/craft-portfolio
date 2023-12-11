@@ -17,7 +17,8 @@ import {
         Na&apos;nez <Badge>2023-</Badge>
         </Title>
         <P>
-        An app service that offers a solution to improve the inconvenient process of choosing perfumes.
+        ✨ 불편한 향수 선택 과정을 개선한 솔루션을 담은 앱 서비스, 나네(Na&apos;nez)
+        <br />
         </P>
         <br />
         <WorkImage src="/images/works/nanez.png" alt="nanez" />
@@ -35,7 +36,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>iOS/AOS/Web</span>
+            <span>iOS / AOS / Web</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
@@ -44,7 +45,7 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/051916ac-d8a3-4d1b-88c4-794e876949d8">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           {/* <ListItem>
@@ -54,7 +55,7 @@ import {
             </Link>
           </ListItem> */}
         </List>
-  
+        <br />
         <WorkImage src="/images/works/nanez_1.png" alt="nanez" />
         <WorkImage src="/images/works/nanez_2.png" alt="nanez" />
         

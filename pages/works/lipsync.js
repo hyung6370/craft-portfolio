@@ -17,7 +17,8 @@ import {
         AI Lipsync-Recognition <Badge>2022-2023</Badge>
         </Title>
         <P>
-        Realtime lipsync API that utilizes E2E speech recognition engine.
+        ✨ E2E 음성 인식 엔진을 이용한 실시간 립싱크 서비스 입니다.
+        <br />
         </P>
         <br />
         <WorkImage src="/images/works/lipsync.png" alt="lipsync" />
@@ -44,11 +45,11 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/bb12bc1e-1639-4d15-8f1f-b48c4715f824">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
-  
+        <br />
         <WorkImage src="/images/works/lipsync_1.png" alt="lipsync" />
         <WorkImage src="/images/works/lipsync_2.png" alt="lipsync" />
         <WorkImage src="/images/works/lipsync_3.png" alt="lipsync" />

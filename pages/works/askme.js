@@ -17,7 +17,9 @@ import {
           Ask me <Badge>2023-</Badge>
         </Title>
         <P>
-        A service that allows you to solve your queries through conversation with AI.
+        ✨ AI와 &apos;말&apos;로 소통하여 궁금한 점을 해결할 수 있는 서비스
+        <br />
+
         </P>
         <br />
         <WorkImage src="/images/works/askme.png" alt="askme" />
@@ -44,11 +46,11 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/d30d10fa-90ff-4088-a8f2-5691575f65a1">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
-  
+        <br />
         <WorkImage src="/images/works/askme_1.png" alt="askme" />
         <WorkImage src="/images/works/askme_2.png" alt="askme" />
         

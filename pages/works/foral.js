@@ -17,7 +17,9 @@ import {
         For alcoholics <Badge>2023-</Badge>
         </Title>
         <P>
-        An alcohol addiction self-diagnosis test.
+        ✨ 알코올 중독 자가진단 테스트 앱 서비스 입니다.
+        <br />
+
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -41,7 +43,7 @@ import {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="https://emptyhead.oopy.io/eff166b1-b7fc-43b9-bfcd-a01eb1026a8c">
-            The production process of this project <ExternalLinkIcon mx="2px" />
+            블로그 정리글 / The production process of this project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -51,7 +53,7 @@ import {
             </Link>
           </ListItem>
         </List>
-  
+        <br />
         <WorkImage src="/images/works/foral_1.png" alt="foral" />
         <WorkImage src="/images/works/foral_2.png" alt="foral" />
         
