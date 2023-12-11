@@ -11,13 +11,14 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
+import { MdTravelExplore } from "react-icons/md";
 import { RiNotionFill } from 'react-icons/ri'
 import thumbJeju from '../public/images/travel/jeju/jeju2.png'
 import thumbSapporo from '../public/images/travel/sapporo/sapporo8.png'
@@ -46,7 +47,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             KIM HyungJun
           </Heading>
-          <p>iOS Developer / Designer</p>
+          <p>iOS App Developer / Designer / Traveler</p>
         </Box>
         <Box
           flexShrink={0}
@@ -239,12 +240,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://emptyhead.oopy.io/2a2f98e5-445b-46a3-88d5-b321aa15220a"
             scroll={false}
-            leftIcon={<EmailIcon />}
+            leftIcon={<MdTravelExplore />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            My traveLog!
           </Button>
         </Box>
       </Section>
