@@ -39,7 +39,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie iOS developer based in S.Korea!
+        Hello, I&apos;m an iOS developer based in S.Korea!
       </Box>
 
       <Box display={{ md: 'flex' }}>

@@ -6,6 +6,7 @@ import Payhip from '../components/payhip'
 import { Analytics } from '@vercel/analytics/react'
 
 
+
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
 }
