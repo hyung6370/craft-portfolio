@@ -76,6 +76,17 @@ const Works = () => (
         
       </SimpleGrid>
 
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem id="glimpse" thumbnail={thumbGlimpse} title="Glimpse">
+          이벤트 참가자의 니즈, 소개 기반 네트워킹 & 매칭 플랫폼, Glimpse ✨
+          <br />
+          Event Participant Needs, Introduction-Based Networking & Matching Platform, Glimpse✨
+          </WorkGridItem>
+        </Section>
+        
+      </SimpleGrid>
+
       <Section delay={0.4}>
         <Divider my={6} />
 

@@ -98,7 +98,7 @@ const Home = () => (
           Introduce Myself
         </Heading>
         <Paragraph>
-        안녕하세요!😎 현재 대구와 서울에 거주하고 활동하고 있는 주니어 iOS 앱개발자로, 제가 원하는 Services/Product/Project를 만드는 데 열정을 가지고 있습니다. 지속적으로 꾸준히 성장하고 있으며, 네트워킹을 통해 함께 성장하는 개발 문화를 지향하며, 가치 있는 지식을 공유하려고 노력합니다. 더욱이 언제나 사람들이 필요로 하는 것에 대해서 늘 고민하며, 끊임없는 도전의 자세를 유지합니다. 또한 숙련된 개발자가 되기 이전에 좋은 개발자로 성장하기 위해 끊임없이 노력하고 있습니다.
+        안녕하세요!😎 현재 부산과 서울에 거주하고 활동하고 있는 iOS 앱 개발자로, 제가 원하는 Services/Product/Project를 만드는 데 열정을 가지고 있습니다. 지속적으로 꾸준히 성장하고 있으며, 네트워킹을 통해 함께 성장하는 개발 문화를 지향하며, 가치 있는 지식을 공유하려고 노력합니다. 더욱이 언제나 사람들이 필요로 하는 것에 대해서 늘 고민하며, 끊임없는 도전의 자세를 유지합니다. 또한 숙련된 개발자가 되기 이전에 좋은 개발자로 성장하기 위해 끊임없이 노력하고 있습니다.
           
         </Paragraph>
         <br />
@@ -123,7 +123,12 @@ const Home = () => (
         </Heading>
 
         <BioSection>
-          <BioYear>2023</BioYear>
+          <BioYear>2024.04~</BioYear>
+          iOS App Developer at BizplayPay
+        </BioSection>
+        <br />
+        <BioSection>
+          <BioYear>2023.03</BioYear>
           Completed a Bachelor&apos;s degree in Computer Science from the Graduate School at YU.
         </BioSection>
         
