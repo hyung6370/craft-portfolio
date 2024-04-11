@@ -8,6 +8,7 @@ import thumbKid from '../public/images/works/kid.png'
 import thumbGoal from '../public/images/works/goalforyou.png'
 import thumbAl from '../public/images/works/foral.png'
 import thumbNanez from '../public/images/works/nanez.png'
+import thumbGlimpse from '../public/images/works/glimpse.png'
 import thumbLipsync from '../public/images/works/lipsync.png'
 
 const Works = () => (
@@ -73,10 +74,7 @@ const Works = () => (
           ✨ An app service that offers a solution to improve the inconvenient process of choosing perfumes.
           </WorkGridItem>
         </Section>
-        
-      </SimpleGrid>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="glimpse" thumbnail={thumbGlimpse} title="Glimpse">
           이벤트 참가자의 니즈, 소개 기반 네트워킹 & 매칭 플랫폼, Glimpse ✨
