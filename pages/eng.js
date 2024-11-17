@@ -47,7 +47,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             KIM HyungJun
           </Heading>
-          <p>iOS App Developer / Designer / Traveler</p>
+          <p>iOS App Developer</p>
         </Box>
         <Box
           flexShrink={0}

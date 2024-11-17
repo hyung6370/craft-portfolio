@@ -3,6 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbBusanz from '../public/images/works/busanz.png' 
 import thumbAskme from '../public/images/works/askme.png'
 import thumbKid from '../public/images/works/kid.png'
 import thumbGoal from '../public/images/works/goalforyou.png'
@@ -20,12 +21,21 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem id="busanz" title="Busanz" thumbnail={thumbBusanz}>
+            ✨ 부산의 맛집을 소개하는 앱 서비스
+            <br />
+            ✨ An App Service that introduces delicious restaurants in Busan
+          </WorkGridItem>
+        </Section>
+
+        <Section>
           <WorkGridItem id="askme" title="Ask me" thumbnail={thumbAskme}>
             ✨ AI와 &apos;말&apos;로 소통하여 궁금한 점을 해결할 수 있는 서비스
             <br />
             ✨ A service that allows you to solve your queries through conversation with AI.
           </WorkGridItem>
         </Section>
+
         <Section>
           <WorkGridItem
             id="ourkid"
